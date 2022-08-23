@@ -5,7 +5,7 @@ using CoreEscuela.Entidades;
 
 namespace Etapa1
 {
-    public class EscuelaEngine
+    public sealed class EscuelaEngine
     {
         public EscuelaEngine(Escuela escuela)
         {
@@ -67,6 +67,39 @@ namespace Etapa1
                 c.Alumnos = GenerarAlumnosAlAzar(cantRandom);
             }
         }
+        public List<ObjetoEscuelaBase> GetObjetosEscuela()
+        {
+            var listaObj = new List<ObjetoEscuelaBase>();
+            listaObj.Add(Escuela);
+            listaObj.AddRange(Escuela.Cursos);
+
+            foreach (var curso in Escuela.Cursos)
+            {
+                listaObj.AddRange(curso.Asignaturas);
+                listaObj.AddRange(curso.Alumnos);
+
+                foreach (var alumno in curso.Alumnos)
+                {
+                    listaObj.AddRange(alumno.Evaluación);
+                }
+            }
+
+            return listaObj;
+        }
+
+        private void CargarAsignaturas()
+        {
+            foreach (var curso in Escuela.Cursos)
+            {
+                List<Asignatura> listaAsignatura = new List<Asignatura>(){
+                    new Asignatura{Nombre="Matematicas"},
+                    new Asignatura{Nombre="Educacion Fisica"},
+                    new Asignatura{Nombre="Castellano"},
+                    new Asignatura{Nombre="Ciencias Naturales"},
+                };
+                curso.Asignaturas = listaAsignatura;
+            }
+        }
 
         private void CargarEvaluaciones()
         {
@@ -91,20 +124,6 @@ namespace Etapa1
                         }
                     }
                 }
-            }
-        }
-
-        private void CargarAsignaturas()
-        {
-            foreach (var curso in Escuela.Cursos)
-            {
-                List<Asignatura> listaAsignatura = new List<Asignatura>(){
-                    new Asignatura{Nombre="Matematicas"},
-                    new Asignatura{Nombre="Educacion Fisica"},
-                    new Asignatura{Nombre="Castellano"},
-                    new Asignatura{Nombre="Ciencias Naturales"},
-                };
-                curso.Asignaturas = listaAsignatura;
             }
         }
     }
