@@ -1,0 +1,15 @@
+C:\Joselyn\platziHelloWorld\bin\Debug\net6.0\platziHelloWorld.exe
+C:\Joselyn\platziHelloWorld\bin\Debug\net6.0\platziHelloWorld.deps.json
+C:\Joselyn\platziHelloWorld\bin\Debug\net6.0\platziHelloWorld.runtimeconfig.json
+C:\Joselyn\platziHelloWorld\bin\Debug\net6.0\platziHelloWorld.dll
+C:\Joselyn\platziHelloWorld\bin\Debug\net6.0\platziHelloWorld.pdb
+C:\Joselyn\platziHelloWorld\obj\Debug\net6.0\platziHelloWorld.csproj.AssemblyReference.cache
+C:\Joselyn\platziHelloWorld\obj\Debug\net6.0\platziHelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Joselyn\platziHelloWorld\obj\Debug\net6.0\platziHelloWorld.AssemblyInfoInputs.cache
+C:\Joselyn\platziHelloWorld\obj\Debug\net6.0\platziHelloWorld.AssemblyInfo.cs
+C:\Joselyn\platziHelloWorld\obj\Debug\net6.0\platziHelloWorld.csproj.CoreCompileInputs.cache
+C:\Joselyn\platziHelloWorld\obj\Debug\net6.0\platziHelloWorld.dll
+C:\Joselyn\platziHelloWorld\obj\Debug\net6.0\refint\platziHelloWorld.dll
+C:\Joselyn\platziHelloWorld\obj\Debug\net6.0\platziHelloWorld.pdb
+C:\Joselyn\platziHelloWorld\obj\Debug\net6.0\platziHelloWorld.genruntimeconfig.cache
+C:\Joselyn\platziHelloWorld\obj\Debug\net6.0\ref\platziHelloWorld.dll

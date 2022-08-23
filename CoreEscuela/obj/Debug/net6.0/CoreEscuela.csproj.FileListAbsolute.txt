@@ -1,0 +1,15 @@
+C:\Joselyn\CoreEscuela\bin\Debug\net6.0\CoreEscuela.exe
+C:\Joselyn\CoreEscuela\bin\Debug\net6.0\CoreEscuela.deps.json
+C:\Joselyn\CoreEscuela\bin\Debug\net6.0\CoreEscuela.runtimeconfig.json
+C:\Joselyn\CoreEscuela\bin\Debug\net6.0\CoreEscuela.dll
+C:\Joselyn\CoreEscuela\bin\Debug\net6.0\CoreEscuela.pdb
+C:\Joselyn\CoreEscuela\obj\Debug\net6.0\CoreEscuela.csproj.AssemblyReference.cache
+C:\Joselyn\CoreEscuela\obj\Debug\net6.0\CoreEscuela.GeneratedMSBuildEditorConfig.editorconfig
+C:\Joselyn\CoreEscuela\obj\Debug\net6.0\CoreEscuela.AssemblyInfoInputs.cache
+C:\Joselyn\CoreEscuela\obj\Debug\net6.0\CoreEscuela.AssemblyInfo.cs
+C:\Joselyn\CoreEscuela\obj\Debug\net6.0\CoreEscuela.csproj.CoreCompileInputs.cache
+C:\Joselyn\CoreEscuela\obj\Debug\net6.0\CoreEscuela.dll
+C:\Joselyn\CoreEscuela\obj\Debug\net6.0\refint\CoreEscuela.dll
+C:\Joselyn\CoreEscuela\obj\Debug\net6.0\CoreEscuela.pdb
+C:\Joselyn\CoreEscuela\obj\Debug\net6.0\CoreEscuela.genruntimeconfig.cache
+C:\Joselyn\CoreEscuela\obj\Debug\net6.0\ref\CoreEscuela.dll
